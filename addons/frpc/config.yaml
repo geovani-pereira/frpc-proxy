@@ -1,0 +1,29 @@
+{
+  "name": "FRPC Client",
+  "version": "1.0.0",
+  "slug": "frpc-proxy-client",
+  "description": "Add-on do cliente frpc para Home Assistant",
+  "startup": "application",
+  "boot": "auto",
+  "init": false,
+  "host_network": true,
+  "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
+  "options": {
+    "server_addr": "",
+    "server_port": "",
+    "proxy_name": "homeassistant",
+    "proxy_type": "http",
+    "proxy_local_ip": "127.0.0.1",
+    "proxy_local_port": 8123,
+    "proxy_custom_domains": ""
+  },
+  "schema": {
+    "server_addr": "str",
+    "server_port": "int",
+    "proxy_name": "str",
+    "proxy_type": "str",
+    "proxy_local_ip": "str",
+    "proxy_local_port": "int",
+    "proxy_custom_domains": "str"
+  }
+}
