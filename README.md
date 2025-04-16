@@ -40,3 +40,8 @@ http:
     - 192.168.0.0/16
     - 10.0.0.0/8
     - IP_DO_SERVIDOR_FRPS
+
+
+## 🔗 Créditos
+
+Este add-on utiliza o [frp (Fast Reverse Proxy)](https://github.com/fatedier/frp), licenciado sob a [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).    
